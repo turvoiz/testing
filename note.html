@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Merry Christmas Card</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        }
+
+        body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url(https://i.ibb.co/GTVY0J9/bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        }
+
+        .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 700px;
+        height: 700px;
+        perspective: 1200px;
+        }
+
+        .card {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 450px;
+        height: 500px;
+        transform-style: preserve-3d;
+        }
+
+        .card .card-bg {
+        position: absolute;
+        }
+
+        .card .card-bg img {
+        z-index: 1;
+        width: 500px;
+        height: 900px;
+        border-radius: 10px;
+        }
+        .card .card-bg2 img {
+        z-index: 2;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+     <audio controls autoplay>
+      <source src="horse.ogg" type="audio/ogg">
+      <source src="horse.mp3" type="audio/mpeg">
+
+    </audio> 
+    <div class="container">
+        <div class="card">
+            <div class="card-bg">
+                <img src="https://i.ibb.co/S66YZrm/Pngtree-christmas-ball-pine-branch-green-6843979.png" alt="card">
+            </div>
+             <div class="card-bg2">
+                <img src=" https://i.ibb.co/z2QZSjt/snow.gif" alt="snow">
+            </div>
+
+           
+             <div class="title">
+                <h2>Count your blessings</h2>
+                <h2>Sing your Christmas carols, open your gifts</h2>
+                <h2>And make a wish under the Christmas tree</h2> 
+
+                <br><br><br><br>
+                <h1>Merry Christmas & God Bless You!</h1>
+
+                <img style="height: 50px" src="https://i.ibb.co/XkLn1vc/icegif-364.gif" alt="icegif-364">
+            </div>
+            
+                
+            </div>
+           
+          
+        </div>
+    </div>
+
+  
+</body>
+
+</html>
